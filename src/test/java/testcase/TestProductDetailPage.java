@@ -29,7 +29,7 @@ public class TestProductDetailPage extends SetupTest {
 
         ProductDetailPage productdetailpage = new ProductDetailPage();
         Assert.assertEquals(productdetailpage.productPageLoaded(), Boolean.TRUE);
-        productdetailpage.gotoProductDetailPage();
+        //productdetailpage.gotoProductDetailPage();
 
     }
 }

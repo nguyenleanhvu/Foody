@@ -22,7 +22,6 @@ public Boolean searchPageLoaded() {
         public void searchToSearchPage(String keyword) {
                 find_element(searchtextbox).sendKeys(keyword);
                 find_element(searchPageRef).click();
-                driver.navigate().back();
         }
 }
 

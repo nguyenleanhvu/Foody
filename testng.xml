@@ -3,7 +3,8 @@
 <suite name="Test Suite Demo" verbose="1" >
     <test name="The Internet Site Demo" >
         <classes>
-            <class name="testcase.TestProductDetailPage"/>
+            <class name="testcase.TestSearchPage"/>;
+            <class name="testcase.TestProductDetailPage"/>;
         </classes>
     </test>
 </suite>
